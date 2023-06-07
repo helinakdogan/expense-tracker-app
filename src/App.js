@@ -34,6 +34,8 @@ function App() {
       return [expense, ...prevExpenses];
     });
   }
+
+
   return (
     <div>
       <NewExpense onAddExpense={addExpenseHandler}/>
